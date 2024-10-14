@@ -5,10 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zepto Book Shop</title>
+
+    <!-- Link to global styles for general layout -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <h1>Initial Project Setup</h1>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="book.html">Books</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Zepto Book Shop</h1>
+        <p>Explore our collection of books and add your favorites to your wishlist!</p>
+
+        <!-- Book List -->
+        <section id="book-list">
+            <div id="books-container">
+                <!-- Books will be dynamically loaded here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Zepto Book Shop. All rights reserved.</p>
+    </footer>
 
     <script src="js/app.js"></script>
     <script src="js/wishlist.js"></script>
